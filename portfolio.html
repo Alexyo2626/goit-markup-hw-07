@@ -352,13 +352,16 @@
           </ul>
         </div>
         <form class="subscription">
-          <label class="subscription-group">
-            <span class="subscription-title">Подпишитесь на рассылку</span>
+          <div class="subscription-group">
+            <label for="form-footer-email"
+              ><span class="subscription-title">Подпишитесь на рассылку</span></label
+            >
             <div class="form-wrap">
               <input
                 class="subscription-input"
                 type="email"
-                name="form-email"
+                name="form-footer-email"
+                id="form-footer-email"
                 placeholder="E-mail"
               />
               <button class="btn footer-btn" type="submit">
@@ -368,7 +371,7 @@
                 </svg>
               </button>
             </div>
-          </label>
+          </div>
         </form>
       </div>
     </footer>
