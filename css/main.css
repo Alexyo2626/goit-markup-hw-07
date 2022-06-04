@@ -59,7 +59,7 @@ ul {
   padding: 0;
 }
 
-a {
+a, .link {
   text-decoration: none;
 }
 
@@ -81,11 +81,11 @@ ul {
   margin-right: 93px;
 }
 
-.logo--black {
+.logo__header--black {
   color: #000000;
 }
 
-.logo--white {
+.logo__bottom--white {
   color: #FFFFFF;
 }
 

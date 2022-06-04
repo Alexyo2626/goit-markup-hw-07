@@ -14,11 +14,12 @@
         margin-right: 93px;
     }
     
-    &--black {
-        color: #000000;
-    }
     
-    &--white {
-        color: #FFFFFF;
-    }
+}
+
+.logo__header--black {
+    color: #000000;
+}
+.logo__bottom--white {
+    color: #FFFFFF;
 }
